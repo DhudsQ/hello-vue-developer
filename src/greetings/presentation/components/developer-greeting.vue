@@ -12,5 +12,5 @@ const greeting= computed(()=>{
 </script>
 
 <template>
-<p>{{greeting}}</p>
+<p>{{greeting}} </p>
 </template>
