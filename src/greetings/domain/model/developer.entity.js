@@ -2,9 +2,9 @@ export class Developer{
 
     #firstName;
     #lastName;
-    constructor(firstName, #lastName){
+    constructor(firstName, lastName){
         this.#firstName = firstName?.trim() || '';
-        this.#lastName = firstName?.trim() || '';
+        this.#lastName = lastName?.trim() || '';
 
     }
 

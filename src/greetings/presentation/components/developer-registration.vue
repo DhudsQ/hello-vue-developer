@@ -26,7 +26,7 @@ function submitRegistrationRequest(){
 
 function deferRegistration(){
   console.log('Deferred registration');
-  emit('registration-deferred',{firstName: '',lastName:''});
+  emit('developer-deferred',{firstName: '',lastName:''});
   clearFields();
   errorMessage.value = '';
 }
